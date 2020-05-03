@@ -1,1 +1,11 @@
 ﻿l_english:
+ ### Nation and Party Names
+ GER_fascism:0 "Greater German Reich"
+ ### Leader Descriptions
+ Germany_Adolf_Hitler_Leader_Desc:0 "Who would've thought that a sickly boy who wanted to be an artist would become the single-most powerful man in the world?\n\nFollowing the devastation of the First World War, Corporal Adolf Hitler returned to a Germany in ruin. All around him, he saw rot and greed. It was not long before he found the source; the minorities. They had been welcomed as guests, but thought to act as the hosts. Hitler would make sure that their evil was exposed and destroyed- and so he did. Taking charge of the then-young Nazi Party, Hitler led the party to victory in election after election. In 1932, the NSDAP became the largest party in Germany, and the next year Hitler was declared Führer of all Germany.\n\nBy the end of 1946, Hitler's dream of a Germany and a Europe free from Bolshevik and Capitalist influence had been achieved. True, the Bolsheviks are still around, but they are scattered and thus pose little threat. The American Mongrels, however, still controlled by the Capitalists, remains in a position to oppose the Reich.\n\nNow 60, Hitler can feel the Reaper's cold breath on his shoulder as the inevitable fate of all men inches ever closer. He wonders if there is still enough time for him to ensure the safety of the Reich's future..."
+ ### Decisions
+ # Categories
+ GER_RK_Integration_Category:0 "Reichskommissariat Integration"
+ GER_RK_Integration_Category_desc:0 ""
+ # Decisions
+ GER_Reaffirm_Ties_With_Reichskommissariats:0 "Reaffirm Ties With Reichskommissariats"
