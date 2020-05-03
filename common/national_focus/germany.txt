@@ -1,0 +1,190 @@
+focus_tree = {
+    id = Germany_Focus
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = GER
+        }
+    }
+
+    focus = {
+    	id = GER_Emerge_Victorious
+    	icon = GFX_goal_anschluss
+    	x = 6
+    	y = 0
+    	cost = 1
+    	ai_will_do = {
+    		factor = 12
+    	}
+    	available_if_capitulated = no
+    	search_filters = { FOCUS_FILTER_POLITICAL }
+    	completion_reward = {
+    		add_ideas = {
+    			GER_Triumphant_Will
+    		}
+    	}
+    }
+
+    focus = {
+    	id = GER_Military_Of_The_Reich
+    	icon = GFX_focus_generic_manpower
+    	prerequisite = { focus = GER_Emerge_Victorious }
+    	x = -4
+    	y = 1
+    	relative_position_id = GER_Emerge_Victorious
+    	cost = 10
+    	ai_will_do = {
+    		factor = 3
+    	}
+    	available_if_capitulated = no
+    	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+    	completion_reward = {
+    		random_owned_controlled_state = {
+    			add_extra_state_shared_building_slots = 2
+    			set_building_level = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+    		}
+    		random_owned_controlled_state = {
+    			add_extra_state_shared_building_slots = 2
+    			set_building_level = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+    		}
+    	}
+    }
+
+    focus = {
+    	id = GER_Support_The_SS
+    	icon = GFX_GER_Support_The_SS
+    	prerequisite = { focus = GER_Military_Of_The_Reich }
+    	mutually_exclusive = { focus = GER_Weaken_Himmler }
+    	x = -1
+    	y = 1
+    	relative_position_id = GER_Military_Of_The_Reich
+    	cost = 10
+    	ai_will_do = {
+    		factor = 8
+    	}
+    	available_if_capitulated = no
+    	search_filters = { FOCUS_FILTER_POLITICAL }
+    	completion_reward = {
+    		
+    	}
+    }
+
+    focus = {
+    	id = GER_Weaken_Himmler
+    	icon = GFX_focus_generic_support_the_left_right
+    	prerequisite = { focus = GER_Military_Of_The_Reich }
+    	prerequisite = { focus = GER_Legacy_Of_The_Fuhrer }
+    	mutually_exclusive = { focus = GER_Support_The_SS }
+    	x = 1
+    	y = 1
+    	relative_position_id = GER_Military_Of_The_Reich
+    	cost = 10
+    	ai_will_do = {
+    		factor = 1
+    	}
+    	available_if_capitulated = no
+    	search_filters = { FOCUS_FILTER_POLITICAL }
+    	completion_reward = {
+    		
+    	}
+    }
+
+    focus = {
+    	id = GER_Legacy_Of_The_Fuhrer
+    	icon = GFX_goal_support_fascism
+    	prerequisite = { focus = GER_Emerge_Victorious }
+    	x = 0
+    	y = 1
+    	relative_position_id = GER_Emerge_Victorious
+    	cost = 5
+    	ai_will_do = {
+    		factor = 10
+    	}
+    	available_if_capitulated = no
+    	search_filters = { FOCUS_FILTER_POLITICAL }
+    	completion_reward = {
+    		
+    	}
+    }
+
+    focus = {
+    	id = GER_Purge_Dissidents
+    	icon = GFX_goal_generic_political_pressure
+    	prerequisite = { focus = GER_Legacy_Of_The_Fuhrer }
+    	x = 0
+    	y = 1
+    	relative_position_id = GER_Legacy_Of_The_Fuhrer
+    	cost = 10
+    	ai_will_do = {
+    		factor = 6
+    	}
+    	available_if_capitulated = no
+    	search_filters = { FOCUS_FILTER_POLITICAL }
+    	completion_reward = {
+    		
+    	}
+    }
+
+    focus = {
+    	id = GER_Foreign_Policy
+    	icon = GFX_goal_generic_improve_relations
+    	prerequisite = { focus = GER_Emerge_Victorious }
+    	x = 4
+    	y = 1
+    	relative_position_id = GER_Emerge_Victorious
+    	cost = 10
+    	ai_will_do = {
+    		factor = 1
+    	}
+    	available_if_capitulated = no
+    	search_filters = { FOCUS_FILTER_POLITICAL }
+    	completion_reward = {
+    		
+    	}
+    }
+
+    focus = {
+    	id = GER_Our_Own_Sphere
+    	icon = GFX_focus_ger_reichskommisariats
+    	prerequisite = { focus = GER_Foreign_Policy }
+    	x = -1
+    	y = 1
+    	relative_position_id = GER_Foreign_Policy
+    	cost = 5
+    	ai_will_do = {
+    		factor = 4
+    	}
+    	available_if_capitulated = no
+    	search_filters = { FOCUS_FILTER_POLITICAL }
+    	completion_reward = {
+    		
+    	}
+    }
+
+    focus = {
+    	id = GER_Japanese_Question
+    	icon = GFX_focus_chi_collaboration_with_the_japanese
+    	prerequisite = { focus = GER_Foreign_Policy }
+    	x = 1
+    	y = 1
+    	relative_position_id = GER_Foreign_Policy
+    	cost = 5
+    	ai_will_do = {
+    		factor = 1
+    	}
+    	available_if_capitulated = no
+    	search_filters = { FOCUS_FILTER_POLITICAL }
+    	completion_reward = {
+    		
+    	}
+    }
+}

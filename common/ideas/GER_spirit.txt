@@ -1,0 +1,72 @@
+ideas = {
+	
+	country = {
+
+		GER_Oberkommando_Der_Wehrmacht = {
+
+			picture = GER_Oberkommando_Der_Wehrmacht
+
+			allowed = {
+				tag = GER
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_org = 5
+			}
+			
+		}
+
+		GER_Grossreichautobahn = {
+
+			picture = GER_Grossreichautobahn
+
+			allowed = {
+				tag = GER
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.20
+			}
+			
+		}
+
+		GER_Party_Infighting = {
+
+			picture = GER_Party_Infighting
+
+			allowed = {
+				tag = GER
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+			}
+			
+		}
+
+		GER_Triumphant_Will = {
+
+			picture = GER_Triumphant_Will
+
+			allowed = {
+				tag = GER
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.50
+				stability_factor = 0.10
+			}
+			
+		}
+	
+	}
+
+}

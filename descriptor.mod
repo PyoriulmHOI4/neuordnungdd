@@ -7,4 +7,5 @@ tags={
 	"Events"
 }
 name="Neuordnung: Dark Days"
+replace_path="common/bookmarks"
 supported_version="1.9.1"
