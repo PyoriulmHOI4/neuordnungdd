@@ -91,14 +91,14 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = fascism
 		last_election = "1939.4.2"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 87
-		fascism = 8
+		fascism = 87
+		democratic = 8
 		communism = 5
 	}
 }
@@ -132,7 +132,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Léon Degrelle"
 	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	picture = "P_FR_Leon_Degrelle.tga"
 	expire = "1965.1.1"
 	ideology = rexism
 	traits = {
