@@ -15,9 +15,7 @@ GER_RK_Integration_Category = {
 
 		cancel_if_not_visible = yes
 
-		complete_reward = {
-			add_stability = 0.05
-		}
+		
 	}
 }
 
