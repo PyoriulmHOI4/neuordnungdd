@@ -8,6 +8,8 @@ focus_tree = {
         }
     }
 
+    continuous_focus_position = { x = 100 y = 2000 }
+
     focus = {
     	id = GER_Emerge_Victorious
     	icon = GFX_goal_anschluss
@@ -186,5 +188,280 @@ focus_tree = {
     	completion_reward = {
     		
     	}
+    }
+
+    focus = {
+        id = GER_Integrate_RKs
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Foreign_Policy }
+        x = -1
+        y = 2
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Italian_Brotherhood
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Foreign_Policy }
+        x = 1
+        y = 2
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Annihilate_KPD
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Purge_Dissidents }
+        x = -5
+        y = 2
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Destroy_Reformists
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Purge_Dissidents }
+        x = -3
+        y = 2
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Sharpen_Long_Knives
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Destroy_Reformists }
+        prerequisite = { focus = GER_Annihilate_KPD }
+        x = -4
+        y = 3
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Reinforce_Positives_Christentum
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Weaken_Himmler }
+        x = -6
+        y = 3
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+     focus = {
+        id = GER_Eine_Vision
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Reinforce_Positives_Christentum }
+        prerequisite = { focus = GER_Sharpen_Long_Knives }
+        x = -5
+        y = 4
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Hitlers_Right_Hand
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Support_The_SS }
+        mutually_exclusive = { focus = GER_Operation_Schwarzadler }
+        x = -9
+        y = 2
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Operation_Schwarzadler
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Support_The_SS }
+        mutually_exclusive = { focus = GER_Hitlers_Right_Hand }
+        x = -11
+        y = 2
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Freikorps_SS
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Operation_Schwarzadler focus = GER_Hitlers_Right_Hand }
+        x = -10
+        y = 3
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Himmlers_New_Order
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Operation_Schwarzadler }
+        x = -12
+        y = 3
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Exile_Goebbels
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Himmlers_New_Order }
+        x = -13
+        y = 4
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Imprison_Goering
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Himmlers_New_Order }
+        x = -11
+        y = 4
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+     focus = {
+        id = GER_Night_Of_The_Short_Blades
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Exile_Goebbels }
+        prerequisite = { focus = GER_Imprison_Goering }
+        x = -12
+        y = 5
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = GER_Heil_Himmler
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        prerequisite = { focus = GER_Night_Of_The_Short_Blades }
+        x = -12
+        y = 6
+        relative_position_id = GER_Foreign_Policy
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        available_if_capitulated = no
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            
+        }
     }
 }
