@@ -4,16 +4,19 @@ ideologies = {
 	
 		types = {
 			
-			conservatism = {
+			social_conservatism = {
 			}
 		
-			liberalism = {
+			social_liberalism = {
 			}
 		
-			constitutionalism = {
+			christian_democracy = {
 			}
 
-			federalism = {
+			market_liberalism = {
+			}
+
+			social_democracy = {
 			}
 		}
 		
@@ -67,14 +70,25 @@ ideologies = {
 	
 		types = {
 			
-			oligarchism = {
+			ethnic_democracy = {
 			}
 		
-			kemalism = {
-				can_be_randomly_selected = no
+			falangism = {
 			}
-		
-			reactionary = {
+
+			integralism = {
+			}
+
+			corporatism = {
+			}
+
+			national_populism = {
+			}
+
+			salafism = {
+			}
+
+			clerical_fascism = {
 			}
 		}
 		
@@ -143,6 +157,18 @@ ideologies = {
 			
 			anarchist_communism = {
 			}
+
+			anarchist_syndicalism = {
+			}
+
+			syndicalism = {
+			}
+
+			radical_socialism = {
+			}
+
+			christian_communism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -190,13 +216,19 @@ ideologies = {
 			strasserism = {
 			}
 			
-			nazbol = {
+			national_bolshevism = {
 			}
 			
 			sorelianism = {
 			}
 			
 			national_syndicalism = {
+			}
+
+			juche = {
+			}
+
+			revolutionary_patriotism = {
 			}
 		}
 		
@@ -238,67 +270,26 @@ ideologies = {
 
 	}
 
-	fascism = {
-	
-		types = {
-		
-			legionarism = {
-			}
-			
-			fascism_ideology = {
-			}
-			
-			falangism = {
-			}
-			
-			rexism = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
-		}
-		
-		color = { 150 75 0 }
-		
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
-		
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-		
-		can_collaborate = yes
-		
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-		}
-
-		ai_fascist = yes # uses the fascist AI behaviour
-	}
-
 	right_nationalism = {
 	
 		types = {
 		
-			nazism = {
+			national_socialism = {
 			}
 			
 			ethnic_nationalism = {
 			}
 			
-			racial_supremacism = {
+			esoteric_national_socialism = {
+			}
+
+			fascism = {
+			}
+
+			legionarism = {
+			}
+
+			ultranationalism = {
 			}
 		}
 		
@@ -339,13 +330,13 @@ ideologies = {
 	
 		types = {
 		
-			despotism  = {
+			authoritarian_democracy  = {
 			}
 
-			one_party_democracy = {
+			paternal_autocracy = {
 			}
 			
-			semi_constitutionalism = {
+			carlism = {
 			}
 
 			military_dictatorship = {
