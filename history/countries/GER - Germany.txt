@@ -290,15 +290,15 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = right_nationalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 20
-	fascism = 60
-	communism = 20
+	right_nationalism = 60
+	leftism = 20
 }
 
 create_faction = Axis

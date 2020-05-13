@@ -1,20 +1,20 @@
 ﻿l_english:
  ### Nation and Party Names
- GER_fascism:0 "Greater German Reich"
- GER_fascism_DEF:0 "the Greater German Reich"
- GER_fascism_ADJ:0 "German"
+ GER_right_nationalism:0 "Greater German Reich"
+ GER_right_nationalism_DEF:0 "the Greater German Reich"
+ GER_right_nationalism_ADJ:0 "German"
  ### Focuses
  # Political + Territorial Branch
- GER_Emerge_Victorious:0 "Emerge Victorious!"
- GER_Emerge_Victorious_desc:0 ""
+ GER_Emerge_Victorious:0 "Triumph des Deutschen Willens"
+ GER_Emerge_Victorious_desc:0 "It is finally finished. After a decade of war and death, our glorious Führer has led us to Total Victory over the Bolsheviks and Capitalists who once oppressed our great race! No more will we Aryans be subject to the whims of the non-Aryans, for we have cast them off and destroyed their power base in our ancestral homeland! This land is ours and ours alone! Sieg Heil!"
  GER_Military_Of_The_Reich:0 "Military of the Reich"
- GER_Military_Of_The_Reich_desc:0 ""
+ GER_Military_Of_The_Reich_desc:0 "Often considered the most important aspect of the Reich from a cultural perspective, the Wehrmacht does more than simply provide a way to safeguard the Reich from foreign threats, as it also molds the next generation of Aryans into strong, proud men, ready to give all in the defense of their Home and Race! It is for these reasons that the Wehrmacht is always well-funded and well-supplied. Gott Mit Uns!"
  GER_Support_The_SS:0 "Support the SS"
- GER_Support_The_SS_desc:0 ""
+ GER_Support_The_SS_desc:0 "The Waffen-SS have proven to be the most devoted and stalwart defenders of the Vaterland. Despite Reichsführer-SS Himmler's... eccentricities, he is undoubtedly committed to his duty to the Deutsches Volk and to the Reich. He has recently begun requesting more support from the Führer, and though there are those with suspicions, the Führer can think of little reason not to grant Himmler this support..."
  GER_Weaken_Himmler:0 "Weaken Himmler"
  GER_Weaken_Himmler_desc:0 ""
  GER_Legacy_Of_The_Fuhrer:0 "Legacy of the Führer"
- GER_Legacy_Of_The_Fuhrer_desc:0 ""
+ GER_Legacy_Of_The_Fuhrer_desc:0 "Our glorious Führer, Adolf Hitler, has been perhaps the most important man in long history of the Aryan Race. He has taken us from the depths of despair, to the position we were always meant to be; the very top, guiding our Brother Races and defending them from the dark forces of the non-Aryans, Capitalists and Bolsheviks! He will live forever in the hearts and minds of the Deutsches Volk! Heil Hitler!"
  GER_Purge_Dissidents:0 "Purge Dissidents"
  GER_Purge_Dissidents_desc:0 ""
  GER_Foreign_Policy:0 "Reopen The Foreign Ministry"
@@ -38,5 +38,11 @@
  # Categories
  GER_RK_Integration_Category:0 "Reichskommissariat Integration"
  GER_RK_Integration_Category_desc:0 ""
+ GER_Party_Infighting_DC:0 "Party Infighting"
+ GER_Party_Infighting_DC_desc:0 "The Nazi Party isn't really a well-coordinated and stable political party, but rather a loose federation of radically different yet pro-Aryan ideologies, political groups, and militias. It's not just for our Führer's best interests, but for the future of our nation, that we stabilize our party and set it up to continue for years to come."
+ GER_Schutzstaffel_DC:0 "Schutzstaffel"
+ GER_Schutzstaffel_DC_desc:0 ""
  # Decisions
  GER_Reaffirm_Ties_With_Reichskommissariats:0 "Reaffirm Ties With Reichskommissariats"
+ # GUI Loc
+ GER_Party_Unity:0 "Party Unity: §Y[?GER_Party_Unity|2%%]§!"

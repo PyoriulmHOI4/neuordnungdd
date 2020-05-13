@@ -2,6 +2,22 @@
 #### GERMANY ####
 #################
 
+GER_Monitor_The_Reich_DC = {
+	
+	icon = ger_schutzstaffel
+
+	picture = GFX_decision_cat_ger_schutzstaffel
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+
+	}
+
+}
+
 GER_mefo_bills_category = {
 	icon = ger_mefo_bills
 
@@ -88,4 +104,21 @@ GER_RK_Integration_Category = {
 	visible = {
 		always = yes
 	}
+}
+
+GER_Party_Infighting_DC = {
+	
+	icon = generic_propaganda
+
+	picture = GFX_decision_cat_party_infighting
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+
+	}
+
+	scripted_gui = GER_Party_Infighting_DCGUI
 }

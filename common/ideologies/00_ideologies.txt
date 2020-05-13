@@ -12,6 +12,9 @@ ideologies = {
 		
 			constitutionalism = {
 			}
+
+			federalism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -67,7 +70,8 @@ ideologies = {
 			oligarchism = {
 			}
 		
-			national_republicanism = {
+			kemalism = {
+				can_be_randomly_selected = no
 			}
 		
 			reactionary = {

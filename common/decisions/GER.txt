@@ -1,4 +1,9 @@
 #Category only allowed for GER
+
+GER_Monitor_The_Reich_DC = {
+	
+	GER_Reorganize_The_Gestapo
+}
 GER_RK_Integration_Category = {
 	
 	GER_Reaffirm_Ties_With_Reichskommissariats = {

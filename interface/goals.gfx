@@ -1958,6 +1958,11 @@ spriteTypes = {
 	### CUSTOM
 
 	SpriteType = { 
+		name = "GFX_GER_Emerge_Victorious"
+		texturefile = "gfx/interface/goals/GER_Emerge_Victorious.dds"
+	}
+
+	SpriteType = { 
 		name = "GFX_GER_Support_The_SS"
 		texturefile = "gfx/interface/goals/GER_Support_The_SS.dds"
 	}

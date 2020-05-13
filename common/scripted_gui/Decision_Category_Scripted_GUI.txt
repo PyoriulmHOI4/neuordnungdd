@@ -1,0 +1,13 @@
+scripted_gui = {
+    GER_Party_Infighting_DCGUI = {
+        context_type = decision_category
+
+        window_name = "GER_Party_Infighting_DC_GUI"
+
+        properties = {
+            progress_bar = {
+                x = GER_Party_Unity
+            }
+        }
+    }
+}

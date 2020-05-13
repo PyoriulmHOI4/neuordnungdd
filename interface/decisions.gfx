@@ -828,6 +828,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/category_pictures/decision_cat_ger_rk_integration.dds"
 	}
 
-	
+	spriteType = {
+		name = "GFX_decision_cat_party_infighting"
+		texturefile = "gfx/interface/decisions/category_pictures/decision_cat_party_infighting.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_ger_schutzstaffel"
+		texturefile = "gfx/interface/decisions/category_pictures/decision_cat_ger_schutzstaffel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_category_ger_schutzstaffel"
+		texturefile = "gfx/interface/decisions/category_icons/decision_category_ger_schutzstaffel.dds"
+	}
 
 }
