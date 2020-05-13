@@ -1,0 +1,17 @@
+state={
+	id=802
+	name="Schwaben"
+	resources={
+		aluminium=18.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = GER
+		owner = GER
+	}
+}
