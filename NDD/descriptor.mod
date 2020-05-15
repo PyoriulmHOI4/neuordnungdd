@@ -8,3 +8,4 @@ tags={
 }
 name="Neuordnung: Dark Days"
 supported_version="1.9.2"
+replace_path="common/bookmarks"
