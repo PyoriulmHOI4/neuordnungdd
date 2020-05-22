@@ -206,3 +206,5 @@ COR = "countries/Corsica.txt"
 ####################################################
 
 RKP - "countries/Reichskommissariat Polen.txt"
+RKO = "countries/Reichskommissariat Ostland.txt"
+RKU = "countries/Reichskommissariat Ukraine.txt"
