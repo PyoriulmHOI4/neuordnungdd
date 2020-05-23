@@ -718,3 +718,11 @@ RKU = {
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 115 115 115 }
 }
+RKB = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+RKN = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
