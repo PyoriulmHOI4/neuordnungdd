@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = RKU
+		owner = RKC
 		victory_points = {
 			3686 20
 		}
@@ -30,10 +30,9 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = RKU
+		add_core_of = RKC
 		add_claim_by = GER
 		add_claim_by = SOV
-		add_claim_by = UKR
 	}
 
 	provinces={

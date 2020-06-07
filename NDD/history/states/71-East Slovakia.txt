@@ -9,12 +9,13 @@ state={
 		victory_points = {
 			3581 3
 		}
-		owner = SLO
+		owner = RKS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 		}
-		add_core_of = SLO
+		add_core_of = RKS
+		add_claim_by = GER
 	}
 
 	provinces={

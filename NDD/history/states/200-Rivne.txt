@@ -6,7 +6,7 @@ state={
 	state_category = town
 
 	history={
-		owner = RKU
+		owner = RKC
 		victory_points = {
 			11405 1
 		}
@@ -14,8 +14,9 @@ state={
 			infrastructure = 5
 			air_base = 3
 		}
-		add_core_of = RKU
+		add_core_of = RKC
 		add_claim_by = GER
+		add_claim_by = RKU
 		add_claim_by = SOV
 		add_claim_by = UKR
 	}
