@@ -2,7 +2,70 @@
  ### RIGHT NATIONALISM
  right_nationalism:0 "Right Nationalist"
  right_nationalism_noun:0 "Right Nationalism"
+ esoteric_national_socialism:0 "Esoteric National Socialism"
+ esoteric_national_socialism_desc:0 "#"
  national_socialism:0 "National Socialism"
  national_socialism_desc:0 "Revolving around the core tenets of supremacism, racism, and aggression, National Socialism is a Germanic ideology that expands on and salutes the idea of a supreme German nation and the unity of all Germans under one common leader, the Führer."
  fascism:0 "Fascism"
  fascism_desc:0 "Primarily beginning in Italy in the 1920s, Fascism is a totalitarian ideology that venerates for a strong devotion and appreciation for the state and one leader that is believed to lead the entire country through its brightest and darkest moments."
+ ultranationalism:0 "Ultranationalism"
+ ultranationalism_desc:0 "#"
+ ethnic_nationalism:0 "Ethnic Nationalism"
+ ethnic_nationalism_desc:0 "#"
+ legionarism:0 "Legionarism"
+ legionarism_desc:0 "#"
+
+ ### RIGHTISM
+ rightism:0 "Rightist"
+ rightism_noun:0 "Rightism"
+
+
+
+
+
+
+
+ ### DEMOCRATIC
+ democratic:0 "Democratic"
+ democratic_noun:0 "Democratism"
+
+
+
+
+
+
+
+ ### AUTHORITARIANISM
+ authoritarianism:0 "Authoritarianist"
+ authoritarianism_noun:0 "Authoritarianism"
+
+
+
+
+
+
+
+
+ ### LEFTISM
+ leftism:0 "Leftist"
+ leftism_noun:0 "Leftism"
+
+
+
+
+
+
+
+
+ ### LEFT NATIONALISM
+ left_nationalism:0 "Left Nationalist"
+ left_nationalism_noun:0 "Left Nationalism"
+
+
+
+
+
+
+
+
+
