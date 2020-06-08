@@ -726,3 +726,19 @@ RKN = {
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 115 115 115 }
 }
+RKS = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+RKC = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+RKM = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+RKK = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
