@@ -1,0 +1,15 @@
+﻿l_english:
+ # Country Naming
+ RFR_democratic:0 "Republic of the Far East"
+ RFR_democratic_DEF:0 "the Republic of the Far East"
+ RFR_democratic_ADJ:0 "Russian"
+
+
+
+ # Country Party Naming
+ COMING SOON
+
+
+
+ # Leader Descriptions 
+ POLITICS_PLACEHOLDER_DESC:0 "#"
