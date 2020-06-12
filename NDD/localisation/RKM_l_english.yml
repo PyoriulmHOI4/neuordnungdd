@@ -3,7 +3,9 @@
  RKM_right_nationalism:0 "Reichskommissariat Moskowien"
  RKM_right_nationalism_DEF:0 "the Reichskommissariat Moskowien"
  RKM_right_nationalism_ADJ:0 "German"
-
+ RKM:0 "Moscow"
+ RKM_DEF:0 "Moscow"
+ RKM_ADJ:0 "German"
 
 
  # Country Party Naming

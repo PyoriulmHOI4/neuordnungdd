@@ -3,6 +3,9 @@
  RKK_right_nationalism:0 "Reichskommissariat Kaukasus"
  RKK_right_nationalism_DEF:0 "the Reichskommissariat Kaukasus"
  RKK_right_nationalism_ADJ:0 "German"
+ RKK:0 "Caucasus"
+ RKK_DEF:0 "Caucasus"
+ RKK_ADJ:0 "German"
 
 
 

@@ -3,6 +3,9 @@
  RKS_right_nationalism:0 "Reichskommissariat Slowakei"
  RKS_right_nationalism_DEF:0 "the Reichskommissariat Slowakei"
  RKS_right_nationalism_ADJ:0 "German"
+ RKS:0 "Slovakia"
+ RKS_DEF:0 "Slovakia"
+ RKS_ADJ:0 "German"
 
 
 

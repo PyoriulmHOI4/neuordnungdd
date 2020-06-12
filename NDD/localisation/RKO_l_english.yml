@@ -3,6 +3,9 @@
  RKO_right_nationalism:0 "Reichskommissariat Ostland"
  RKO_right_nationalism_DEF:0 "the Reichskommissariat Ostland"
  RKO_right_nationalism_ADJ:0 "German"
+ RKO:0 "Ostland"
+ RKO_DEF:0 "Ostland"
+ RKO_ADJ:0 "German"
 
 
 

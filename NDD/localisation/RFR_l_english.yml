@@ -1,8 +1,11 @@
 ﻿l_english:
  # Country Naming
- RFR_democratic:0 "Republic of the Far East"
- RFR_democratic_DEF:0 "the Republic of the Far East"
+ RFR_democratic:0 "Russian Confederal Republic"
+ RFR_democratic_DEF:0 "the Russian Confederal Republic"
  RFR_democratic_ADJ:0 "Russian"
+ RFR:0 "Far-East Republic"
+ RFR_DEF:0 "Far-East Republic"
+ RFR_ADJ:0 "Russian"
 
 
 

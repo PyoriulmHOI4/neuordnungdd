@@ -3,6 +3,9 @@
  IRT_rightism:0 "Islamic Republic of Turkestan"
  IRT_rightism_DEF:0 "the Islamic Republic of Turkestan"
  IRT_rightism_ADJ:0 "Turkestani"
+ IRT:0 "Turkestan"
+ IRT_DEF:0 "Turkestan"
+ IRT_ADJ:0 "Turkestani"
 
 
 

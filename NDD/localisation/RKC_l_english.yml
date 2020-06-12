@@ -3,6 +3,9 @@
  RKC_right_nationalism:0 "Reichskommissariat Krim"
  RKC_right_nationalism_DEF:0 "the Reichskommissariat Krim"
  RKC_right_nationalism_ADJ:0 "German"
+ RKC:0 "Crimea"
+ RKC_DEF:0 "Crimea"
+ RKC_ADJ:0 "German"
 
 
 

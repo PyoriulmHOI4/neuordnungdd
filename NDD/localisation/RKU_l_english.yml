@@ -3,6 +3,9 @@
  RKU_right_nationalism:0 "Reichskommissariat Ukraine"
  RKU_right_nationalism_DEF:0 "the Reichskommissariat Ukraine"
  RKU_right_nationalism_ADJ:0 "German"
+ RKU:0 "Ukraine"
+ RKU_DEF:0 "Ukraine"
+ RKU_ADJ:0 "German"
 
 
 
