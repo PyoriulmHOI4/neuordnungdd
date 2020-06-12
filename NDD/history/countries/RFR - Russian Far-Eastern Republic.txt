@@ -15,9 +15,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Placeholder"
-	desc = "POLITICS_PLACEHOLDER_DESC"
-	picture = "P_R_Placeholder.tga"
+	name = "Alexander Kerensky"
+	desc = "POLITICS_ALEXANDER_KERENSKY_DESC"
+	picture = "P_D_Alexander_Kerensky.tga"
 	expire = "1965.1.1"
 	ideology = social_conservatism 
 	traits = {
