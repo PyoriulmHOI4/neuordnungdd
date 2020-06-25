@@ -1,4 +1,2 @@
 # Neuordnung - Dark Days
-# Team is: colonel_hogan, Specialist Wafer, NoUsername, BurgerKingHotline, KiwisFlying, Flatstrike
-
-# Credit to Chairman VitorHL for the custom portrait template.
+# Team is: therealPeterGriffin, SpecialistWafer, NoUsername, Auto memories doll, BurgerKingHotline, KiwisFlying, Flatstrike
