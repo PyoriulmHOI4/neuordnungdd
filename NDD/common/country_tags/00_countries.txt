@@ -205,7 +205,7 @@ COR = "countries/Corsica.txt"
 
 ####################################################
 
-RKP - "countries/Reichskommissariat Polen.txt"
+RKP = "countries/Reichskommissariat Polen.txt"
 RKO = "countries/Reichskommissariat Ostland.txt"
 RKU = "countries/Reichskommissariat Ukraine.txt"
 RKB = "countries/Reichskommissariat Belgien und Nordfrankreich.txt"
@@ -217,3 +217,4 @@ RKK = "countries/Reichskommissariat Kaukasus.txt"
 AUR = "countries/All-United Russian Government.txt"
 IRT = "countries/Islamic Republic of Turkestan.txt"
 RFR = "countries/Russian Far-Eastern Republic.txt"
+AOM = "countries/American Occupation Zone of Manchuria.txt"
