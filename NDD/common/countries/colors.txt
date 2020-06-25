@@ -742,3 +742,19 @@ RKK = {
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 115 115 115 }
 }
+AUR = {
+	color = rgb { 57 86 62 }
+	color_ui = rgb { 57 86 62 }
+}
+IRT = {
+	color = rgb { 0 106 106 }
+	color_ui = rgb { 0 106 106 }
+}
+RFR = {
+	color = rgb { 69 94 150 }
+	color_ui = rgb { 69 94 150 }
+}
+AOM = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 20 133 237 }
+}
